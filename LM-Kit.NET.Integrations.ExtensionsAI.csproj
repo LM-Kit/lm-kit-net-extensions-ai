@@ -4,7 +4,7 @@
 		<LangVersion>latest</LangVersion>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-		<Version>2026.2.1</Version>
+		<Version>2026.7.1</Version>
 		<RootNamespace>LMKit.Integrations.ExtensionsAI</RootNamespace>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<Configurations>Debug;Release</Configurations>
@@ -23,9 +23,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="LM-Kit.NET" Version="2026.5.6" />
-		<PackageReference Include="Microsoft.Extensions.AI.Abstractions" Version="10.6.0" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
+		<PackageReference Include="LM-Kit.NET" Version="2026.7.4" />
+		<PackageReference Include="Microsoft.Extensions.AI.Abstractions" Version="10.8.1" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.10" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
